@@ -21,6 +21,7 @@ body {
 header {
   position: relative;
   width: 100vw;
+  height: max-content;
 }
 
 header img {
@@ -40,9 +41,11 @@ header img {
 .line {
   position: absolute;
   top: 50%;
-  width: 100vw;
+  width: 60vw;
   background-color: black;
   height: 1px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .landing-page-content {
@@ -87,7 +90,9 @@ h2 {
 footer {
   position: relative;
   border-top: 1px solid black;
-  width: 100vw;
+  width: 60vw;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .social-links {
