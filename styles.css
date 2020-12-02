@@ -8,6 +8,11 @@ COLOR PALETTE:
 
 */
 
+@font-face {
+  font-family: otherFont;
+  src: url(Nimbus.otf);
+}
+
 * {
   box-sizing: border-box;
 }
@@ -55,7 +60,7 @@ header img {
 }
 
 p {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: otherFont;
   text-align: center;
   position: relative;
   font-size: 1.5rem;
@@ -63,7 +68,7 @@ p {
 }
 
 h2 {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: otherFont;
   text-align: center;
   position: relative;
   font-size: 1.5rem;
