@@ -39,7 +39,6 @@ header img {
 }
 .main-wrapper-landing-page {
   display: grid;
-  grid-template-rows: 30% 60% 10%;
   height: 100vh;
 }
 
